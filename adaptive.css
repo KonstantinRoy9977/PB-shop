@@ -1,0 +1,540 @@
+@media only screen and (max-width: 1200px) {
+    .logoBlock {
+        height: 90px;
+        font-size: 60px;
+    }
+    .PBlogo {
+        margin: 0px 0px 0px 35px;
+    }
+    .logoIcons {
+        margin: 0px 20px 0px 0px;
+    }
+    .iconSearch {
+        width: 25%;
+    }
+    .iconRegistr {
+        width: 26%;
+    }
+    .iconBag {
+        width: 27%;
+    }
+    .capBlock {
+        height: 47px;
+        font-size: 15px;
+    }
+    .capBlock a {
+        margin: 0px 35px 0px 0px;
+    }
+    .charactersText {
+        font-size: 60px;
+    }
+    .yourLookText {
+        font-size: 55px;
+    }
+    .threePhotosBlock {
+        width: 755px;
+        height: 330px;
+    }
+    .threePhotosBlock img {
+        height: 85%;
+    }
+    .yourLookText {
+        width: 140px;
+    }
+    .whiteColorBlock {
+        text-align: center;
+        height: 100%;
+    }
+    .whiteColorBlock img {
+        width: 85%;
+        margin: 80px 0px 80px 0px;
+    }
+    .endBlock {
+        height: 380px;
+    }
+    .endBlockContent h1 {
+        font-size: 13px;
+        margin: 0px 0px 20px 0px;
+    }
+    .endBlockContent p {
+        font-size: 12px;
+    }
+    .registrationForm input {
+        height: 33px;
+        width: 165px;
+        font-size: 9px;
+    }
+    .registrationForm button {
+        height: 35px;
+        width: 115px;
+        font-size: 9px;
+    }
+
+}
+
+@media only screen and (max-width: 970px) {
+    .logoBlock {
+        height: 75px;
+        font-size: 50px;
+    }
+    .PBlogo {
+        margin: 0px 0px 0px 25px;
+    }
+    .logoIcons {
+        margin: 0px 0px 0px 0px;
+    }
+    .iconSearch {
+        width: 22%;
+    }
+    .iconRegistr {
+        width: 23%;
+    }
+    .iconBag {
+        width: 24%;
+    }
+    .capBlock {
+        height: 40px;
+        font-size: 12px;
+    }
+    .capBlock a {
+        margin: 0px 20px 0px 0px;
+    }
+    .greyColorBlock {
+        height: 700px;
+    }
+    .charactersText {
+        font-size: 45px;
+        width: 50px;
+    }
+    .threePhotosBlock {
+        width: 650px;
+        height: 284px;
+    }
+    .threePhotosBlock img {
+        height: 83%;
+    }
+    .yourLookText {
+        font-size: 45px;
+        width: 105px;
+    }
+    .whiteColorBlock img {
+        width: 70%;
+        margin: 100px 0px 100px 0px;
+    }
+    .endBlockContent h1 {
+        font-size: 12px;
+        margin: 0px 0px 15px 0px;
+    }
+    .endBlockContent p {
+        font-size: 11px;
+    }
+    .getNewsAndOffers {
+        margin: 0px 0px 0px 100px;
+        width: 330px;
+    }
+    .getNewsAndOffers h1 {
+        width: 300px;
+    }
+    .registrationForm {
+        margin: 0px 0px 0px 0px;
+    }
+    .registrationForm input {
+        height: 30px;
+        width: 155px;
+        font-size: 8px;
+    }
+    .registrationForm button {
+        height: 33px;
+        width: 115px;
+        font-size: 9px;
+    }
+    .instLogo {
+        width: 9%;
+        margin: 0px 7px 0px 0px;
+    }
+    .facebookLogo {
+        width: 8%;
+        margin: 0px 7px 0px 0px;
+    }
+    .twitterLogo {
+        width: 9%;
+        margin: 0px 7px 0px 0px;
+    }
+    .youtubeLogo {
+        width: 7%;
+        margin: 0px 7px 0px 0px;
+    }
+    .tikTokLogo {
+        width: 9%;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .charactersText {
+        font-size: 40px;
+        width: 50px;
+    }
+    .threePhotosBlock {
+        width: 610px;
+        height: 260px;
+    }
+    .threePhotosBlock img {
+        height: 87%;
+        margin: 0px 15px 0px 15px;
+    }
+    .yourLookText {
+        font-size: 40px;
+        height: 400px;
+        width: 85px;
+    }
+    .getNewsAndOffers {
+        margin: 0px 0px 0px 80px;
+        width: 290px;
+    }
+    .getNewsAndOffers h1 {
+        width: 280px;
+    }
+    .registrationForm input {
+        height: 28px;
+        width: 145px;
+        font-size: 7px;
+    }
+    .registrationForm button {
+        height: 31px;
+        width: 100px;
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .logoBlock {
+        height: 65px;
+        font-size: 45px;
+    }
+    .PBlogo {
+        margin: 0px 0px 0px 25px;
+        width: 200px;
+    }
+    .logoIcons {
+        width: 150px;
+    }
+    .capBlock {
+        height: 35px;
+        font-size: 10px;
+    }
+    .capBlock a {
+        margin: 0px 13px 0px 0px;
+    }
+    .greyColorBlock {
+        height: 580px;
+    }
+    .charactersText {
+        font-size: 35px;
+        width: 30px;
+        height: 160px;
+    }
+    .threePhotosBlock {
+        width: 535px;
+        height: 240px;
+    }
+    .threePhotosBlock img {
+        margin: 0px 10px 0px 10px;
+    }
+    .yourLookText {
+        font-size: 35px;
+        height: 370px;
+        width: 75px;
+    }
+    .endBlock {
+        height: 270px;
+    }
+    .endBlockContent {
+        padding: 30px 35px 0px 35px;
+    }
+    .endBlockContent h1 {
+        font-size: 10px;
+        margin: 0px 0px 10px 0px;
+    }
+    .endBlockContent p {
+        font-size: 9px;
+    }
+    .getNewsAndOffers {
+        margin: 0px 0px 0px 100px;
+        width: 225px;
+    }
+    .getNewsAndOffers h1 {
+        width: 225px;
+    }
+    .registrationForm {
+        height: 40px;
+        margin: 0px 0px 5px 0px;
+    }
+    .registrationForm input {
+        height: 25px;
+        width: 130px;
+        font-size: 6px;
+    }
+    .registrationForm button {
+        height: 28px;
+        width: 87px;
+        font-size: 7px;
+    }
+    .instLogo {
+        width: 8%;
+        margin: 0px 7px 0px 0px;
+    }
+    .facebookLogo {
+        width: 7%;
+        margin: 0px 7px 0px 0px;
+    }
+    .twitterLogo {
+        width: 8%;
+        margin: 0px 7px 0px 0px;
+    }
+    .youtubeLogo {
+        width: 6%;
+        margin: 0px 7px 0px 0px;
+    }
+    .tikTokLogo {
+        width: 8%;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    body {
+        padding: 100px 0px 0px 0px;
+    }
+    .mobile-whiteStartBlock__link {
+        display: block;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        background-color: #fff;
+        z-index: 1000;
+    }
+    .navbar {
+        display: block;
+        position: fixed;
+        top: 40px;
+        z-index: 1000;
+    }
+    .logoBlock {
+        display: none;
+        width: 100%;
+        height: 60px;
+    }
+    .navbar {
+        display: block;
+    }
+    .PB-logo-mobile {
+        margin-left: 40px;
+    }
+    .linksBlock {
+        height: 35px;
+        font-size: 12px;
+    }
+    .logoIcons {
+        padding-top: 7px;
+    }
+    .iconSearch {
+        width: 27%;
+    }
+    .iconRegistr {
+        width: 28%;
+    }
+    .iconBag {
+        width: 29%;
+    }
+    .capBlock {
+        display: none;
+        width: 100%;
+    }
+    .pagePhoto {
+        display: none;
+    }
+    .mobilePagePhoto {
+        display: block;
+        width: 100%;
+    }
+    .mobilePagePhoto img {
+        width: 100%;
+        height: 90%;
+        object-fit: cover;
+    }
+    .searchWindowBlock {
+        display: none;
+    }
+    .shellRegistrWindow {
+        display: none;
+    }
+    .greyColorBlock {
+        display: none;
+    }
+    .mobile-greyColorBlock {
+        display: block;
+    }
+    .yourLookText {
+        font-size: 35px;
+        height: 80px;
+        width: 375px;
+        display: block;
+        writing-mode: unset;
+        transform: none;
+    }
+    .yourLookText p {
+        margin: 0;
+    }
+    .whiteColorBlock {
+        display: none;
+    }
+    .mobile-whiteColorBlock {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .picturesBlock {
+        margin-bottom: 50px;
+    }
+    .clothesBlock {
+        margin-bottom: 50px;
+    }
+    .endBlock {
+        display: none;
+    }
+    .mobile-endBlock {
+        display: block;
+    }
+    .mobile-whiteEndBlock {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .logos-mobile {
+        justify-content: space-between;
+    }
+    .PB-logo-mobile {
+        margin-left: 40px;
+    }
+    .PB-logo-mobile p {
+        font-size: 35px;
+    }
+    .logoIcons {
+        width: 130px;
+    }
+    .iconSearch {
+        width: 25%;
+    }
+    .iconRegistr {
+        width: 25%;
+    }
+    .iconBag {
+        width: 27%;
+    }
+    .mobile-charactersText {
+        font-size: 30px;
+    }
+    .mobile-yourLookText {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    /* Мобильное меню */
+    .mobile-whiteStartBlock {
+        height: 40px;
+        font-size: 9px;
+    }
+    .nav-container {
+        height: 60px;
+    }
+    .nav-container .hamburger-lines {
+        height: 17px;
+        width: 22px;
+        top: 22px;
+    }
+    .nav-container .hamburger-lines .line {
+        height: 2px;
+    }
+    .PB-logo-mobile p {
+        font-size: 30px;
+    }
+    .logoIcons {
+        width: 115px;
+        padding-top: 5px;
+    }
+    /* //// */
+
+
+    .mobile-charactersText {
+        font-size: 25px;
+    }
+    .mobile-yourLookText {
+        font-size: 25px;
+    }
+    .mybutton {
+        height: 28px;
+        width: 28px;
+        font-size: 21px;
+        top: 714px;
+    }
+    .mobile-endBlockContent {
+        padding: 30px 40px 20px 25px;
+    }
+    .mobile-endBlockContent h1 {
+        font-size: 14px;
+    }
+    .mobile-endBlockContent a {
+        font-size: 12px;
+    }
+    .mobile-registrationForm input {
+        height: 31px;
+        width: 130px;
+        font-size: 9px;
+    }
+    .mobile-registrationForm button {
+        height: 36px;
+        width: 90px;
+        font-size: 7px;
+    }
+    .mobile-instLogo {
+        width: 13%;
+        margin: 0px 10px 0px 0px;
+    }
+    .mobile-facebookLogo {
+        width: 11%;
+        margin: 0px 10px 0px 0px;
+    }
+    .mobile-twitterLogo {
+        width: 13%;
+        margin: 0px 10px 0px 0px;
+    }
+    .mobile-youtubeLogo {
+        width: 9%;
+        margin: 0px 10px 0px 0px;
+    }
+    .mobile-tikTokLogo {
+        width: 13%;
+        margin: 0px 10px 0px 0px;
+    }
+    .mobile-whiteEndBlock p {
+        font-size: 10px;
+    }
+    .mobile-whiteEndBlock a {
+        font-size: 9px;
+    }
+    .mobile-allLogos {
+        margin-bottom: 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
