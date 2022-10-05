@@ -1,0 +1,555 @@
+@media only screen and (max-width: 1200px) {
+    .logoBlock {
+        height: 90px;
+        font-size: 60px;
+    }
+    .PBlogo {
+        margin: 0px 0px 0px 35px;
+    }
+    .logoIcons {
+        margin: 0px 20px 0px 0px;
+    }
+    .iconSearch {
+        width: 25%;
+    }
+    .iconRegistr {
+        width: 26%;
+    }
+    .iconBag {
+        width: 27%;
+    }
+    .capBlock {
+        height: 47px;
+        font-size: 15px;
+    }
+    .capBlock a {
+        margin: 0px 35px 0px 0px;
+    }
+    .linksBlock {
+        height: 28px;
+        font-size: 12px;
+    }
+    .headingBlock {
+        font-size: 10px;
+    }
+    .productCard {
+        width: 300px;
+        height: 510px;
+        font-size: 15px;
+    }
+    .endBlock {
+        height: 380px;
+    }
+    .endBlockContent h1 {
+        font-size: 13px;
+        margin: 0px 0px 20px 0px;
+    }
+    .endBlockContent p {
+        font-size: 12px;
+    }
+    .registrationForm input {
+        height: 33px;
+        width: 165px;
+        font-size: 9px;
+    }
+    .registrationForm button {
+        height: 35px;
+        width: 115px;
+        font-size: 9px;
+    }
+
+}
+
+@media only screen and (max-width: 970px) {
+    .logoBlock {
+        height: 75px;
+        font-size: 50px;
+    }
+    .PBlogo {
+        margin: 0px 0px 0px 25px;
+    }
+    .logoIcons {
+        margin: 0px 0px 0px 0px;
+    }
+    .iconSearch {
+        width: 22%;
+    }
+    .iconRegistr {
+        width: 23%;
+    }
+    .iconBag {
+        width: 24%;
+    }
+    .capBlock {
+        height: 40px;
+        font-size: 12px;
+    }
+    .capBlock a {
+        margin: 0px 20px 0px 0px;
+    }
+    .linksBlock {
+        height: 28px;
+        font-size: 12px;
+    }
+    .pagePhoto {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .pagePhoto img {
+        width: 115%;
+    }
+    .headingBlock {
+        font-size: 9px;
+    }
+    .productCard {
+        width: 260px;
+        height: 440px;
+        font-size: 14px;
+        margin: 0px 20px 20px 0px;
+    }
+    .cardPhoto {
+        width: 260px;
+        height: 330px;
+    }
+    .endBlockContent h1 {
+        font-size: 12px;
+        margin: 0px 0px 15px 0px;
+    }
+    .endBlockContent p {
+        font-size: 11px;
+    }
+    .getNewsAndOffers {
+        margin: 0px 0px 0px 100px;
+        width: 330px;
+    }
+    .getNewsAndOffers h1 {
+        width: 300px;
+    }
+    .registrationForm {
+        margin: 0px 0px 0px 0px;
+    }
+    .registrationForm input {
+        height: 30px;
+        width: 155px;
+        font-size: 8px;
+    }
+    .registrationForm button {
+        height: 33px;
+        width: 115px;
+        font-size: 9px;
+    }
+    .instLogo {
+        width: 9%;
+        margin: 0px 7px 0px 0px;
+    }
+    .facebookLogo {
+        width: 8%;
+        margin: 0px 7px 0px 0px;
+    }
+    .twitterLogo {
+        width: 9%;
+        margin: 0px 7px 0px 0px;
+    }
+    .youtubeLogo {
+        width: 7%;
+        margin: 0px 7px 0px 0px;
+    }
+    .tikTokLogo {
+        width: 9%;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .linksBlock {
+        font-size: 11px;
+    }
+    .headingBlock {
+        font-size: 8px;
+        margin: 0px 0px 25px 30px;
+    }
+    .productsBlock {
+        margin: 0px 20px 60px 45px;
+    }
+    .productCard {
+        width: 180px;
+        height: 325px;
+        font-size: 12px;
+        margin: 0px 20px 20px 0px;
+    }
+    .cardPhoto {
+        width: 180px;
+        height: 230px;
+    }
+    .endBlockContent h1 {
+        font-size: 13px;
+        margin: 0px 0px 10px 0px;
+    }
+    .endBlockContent p {
+        font-size: 12px;
+    }
+    .getNewsAndOffers {
+        margin: 0px 0px 0px 80px;
+        width: 290px;
+    }
+    .getNewsAndOffers h1 {
+        width: 280px;
+    }
+    .registrationForm input {
+        height: 28px;
+        width: 145px;
+        font-size: 7px;
+    }
+    .registrationForm button {
+        height: 31px;
+        width: 100px;
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .logoBlock {
+        height: 65px;
+        font-size: 45px;
+    }
+    .PBlogo {
+        margin: 0px 0px 0px 25px;
+        width: 200px;
+    }
+    .logoIcons {
+        width: 150px;
+    }
+    .capBlock {
+        height: 35px;
+        font-size: 10px;
+    }
+    .capBlock a {
+        margin: 0px 13px 0px 0px;
+    }
+    .linksBlock {
+        height: 25px;
+        font-size: 10px;
+    }
+    .linksBlock p {
+        margin: 0px 5px 0px 0px;
+    }
+    .backLink {
+        width: 50px;
+        margin: 0px 0px 0px 30px;
+    }
+    .endBlock {
+        height: 1130px;
+    }
+    .endBlockContent {
+        display: flex;
+        flex-direction: column;
+    }
+    .endBlockContent h1 {
+        font-size: 20px;
+        margin: 0px 0px 20px 0px;
+    }
+    .endBlockContent p {
+        font-size: 15px;
+    }
+    .help {
+        margin: 20px 0px 0px 0px;
+    }
+    .info {
+        margin: 40px 0px 0px 0px;
+    }
+    .aboutUs {
+        margin: 40px 0px 0px 0px;
+    }
+    .getNewsAndOffers {
+        margin: 80px 0px 0px 0px;
+        width: 430px;
+    }
+    .getNewsAndOffers h1 {
+        width: 400px;
+    }
+    .registrationForm {
+        height: 60px;
+        width: 430px;
+        margin: 0px 0px 30px 0px;
+    }
+    .registrationForm input {
+        height: 50px;
+        width: 250px;
+        font-size: 14px;
+        padding: 0px 0px 0px 10px;
+    }
+    .registrationForm button {
+        height: 51px;
+        width: 150px;
+        font-size: 12px;
+    }
+    .instLogo {
+        width: 15%;
+        margin: 0px 15px 0px 0px;
+    }
+    .facebookLogo {
+        width: 13%;
+        margin: 0px 15px 0px 0px;
+    }
+    .twitterLogo {
+        width: 15%;
+        margin: 0px 15px 0px 0px;
+    }
+    .youtubeLogo {
+        width: 10%;
+        margin: 0px 15px 0px 0px;
+    }
+    .tikTokLogo {
+        width: 14%;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    
+}
+
+@media only screen and (max-width: 480px) {
+    /* Мобильное меню */
+    body {
+        padding: 100px 0px 0px 0px;
+    }
+    .mobile-whiteStartBlock__link {
+        display: block;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        background-color: #fff;
+        z-index: 1000;
+    }
+    .navbar {
+        display: block;
+        position: fixed;
+        top: 40px;
+        z-index: 1000;
+    }
+    .logoBlock {
+        display: none;
+        width: 100%;
+        height: 60px;
+    }
+    .navbar {
+        display: block;
+    }
+    .logoIcons {
+        padding-top: 7px;
+    }
+    .iconSearch {
+        width: 27%;
+    }
+    .iconRegistr {
+        width: 28%;
+    }
+    .iconBag {
+        width: 29%;
+    }
+    .capBlock {
+        display: none;
+        width: 100%;
+    }
+    /* //// */
+
+
+    .linksBlock {
+        height: 35px;
+        font-size: 12px;
+    }
+    .backLink {
+        margin: 0px 0px 0px 20px;
+    }
+    .headingBlock {
+        font-size: 5px;
+        margin: 0px 0px 0px 0px;
+        display: block;
+    }
+    .headingBlock h1 {
+        margin: 0px 4px 0px 0px;
+        font-size: 14px;
+    }
+    .headingBlock p {
+        margin: 0;
+    }
+    .heading-text {
+        display: flex;
+        align-items: baseline;
+        padding: 15px 10px 0px 15px;
+    }
+    .page-description {
+        padding: 10px 40px 30px 15px;
+    }
+    .page-description p {
+        font-size: 11px;
+        font-weight: 100;
+    }
+    .pagePhoto {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .pagePhoto img {
+        width: 165%;
+        height: 100%;
+        object-fit: cover;
+        position: relative;
+        right: 16%;
+    }
+    .productsBlock {
+        margin: 0px 0px 40px 0px;
+    }
+    .productsBlock__container {
+        margin: 0;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-content: stretch;
+        width: 100%;
+    }
+    .productCard {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 390px;
+        font-size: 12px;
+        margin: 0px;
+        text-align: inherit;
+    }
+    .cardPhoto {
+        height: 70%;
+        width: 100%;
+        box-shadow: -1px 1px 0px 0px #fff;
+    }
+    .cardPhoto img {
+        width: 120%;
+        height: 100%;
+        object-fit: cover;
+        position: relative;
+        right: 8%;
+    }
+    .product-info {
+        height: 30%;
+        border: 1px solid #efeeef;
+    }
+    .endBlock {
+        display: none;
+    }
+    .mobile-endBlock {
+        display: block;
+    }
+    .mobile-whiteEndBlock {
+        display: block;
+    }
+    .mobile-allLogos {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    /* Мобильное меню */
+    .nav-container .hamburger-lines {
+        height: 20px;
+        top: 19px;
+    }
+    .nav-container .hamburger-lines .line {
+        height: 2px;
+    }
+    .PB-logo-mobile p {
+        font-size: 33px;
+    }
+    .logoIcons {
+        width: 130px;
+    }
+    .linksBlock {
+        height: 32px;
+        font-size: 11px;
+    }
+    /* //// */
+
+
+    .headingBlock {
+        font-size: 5px;
+        margin: 0px 0px 0px 0px;
+        display: block;
+    }
+    .headingBlock h1 {
+        margin: 0px 4px 0px 0px;
+        font-size: 12px;
+    }
+    .page-description p {
+        font-size: 10px;
+    }
+    .productCard {
+        height: 330px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    /* Мобильное меню */
+    .mobile-whiteStartBlock {
+        height: 40px;
+        font-size: 9px;
+    }
+    .nav-container {
+        height: 60px;
+    }
+    .nav-container .hamburger-lines {
+        height: 17px;
+        width: 22px;
+        top: 22px;
+    }
+    .PB-logo-mobile p {
+        font-size: 30px;
+    }
+    .logoIcons {
+        width: 115px;
+        padding-top: 5px;
+    }
+    /* //// */
+
+    .headingBlock h1 {
+        margin: 0px 2px 0px 0px;
+        font-size: 10px;
+    }
+    .productCard {
+        height: 300px;
+    }
+    .mybutton {
+        height: 28px;
+        width: 28px;
+        font-size: 21px;
+        top: 714px;
+    }
+    .mobile-endBlockContent {
+        padding: 30px 40px 20px 25px;
+    }
+    .mobile-endBlockContent h1 {
+        font-size: 14px;
+    }
+    .mobile-endBlockContent a {
+        font-size: 12px;
+    }
+    .mobile-registrationForm input {
+        height: 31px;
+        width: 130px;
+        font-size: 9px;
+    }
+    .mobile-registrationForm button {
+        height: 36px;
+        width: 90px;
+        font-size: 7px;
+    }
+    .mobile-whiteEndBlock p {
+        font-size: 10px;
+    }
+    .mobile-whiteEndBlock a {
+        font-size: 9px;
+    }
+    .mobile-allLogos {
+        margin-bottom: 0px;
+    }
+}

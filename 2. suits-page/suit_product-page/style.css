@@ -1,0 +1,584 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: 'Rubik';
+    background-color: #3f3f3f;
+}
+
+.logoBlock {
+    height: 100px;
+    background-color: #3f3f3f;
+    font-size: 70px;
+    font-family: 'Road Rage';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+.PBlogo {
+    width: 305px;
+    margin: 0px 0px 0px 50px;
+}
+.PBlogo a {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+.logoIcons {
+    width: 180px;
+    margin: 0px 50px 0px 0px;
+}
+.logoIcons img {
+    transition: transform 0.3s;
+}
+.logoIcons img:hover {
+    -webkit-transform: scale()1.1;
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.iconSearch {
+    width: 27%;
+}
+.iconRegistr {
+    width: 28%;
+}
+.iconBag {
+    width: 29%;
+}
+.capBlock {
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 18px;
+    font-family: 'Rubik';
+}
+.capBlock a {
+    text-decoration: none;
+    color: #2e2e2e;
+    margin: 0px 50px 0px 0px;
+}
+.capBlock a:hover {
+    color: #000000;
+    font-weight: 900;
+}
+.menu {
+    display: flex;
+}
+.pagePhoto img {
+    width: 100%;
+}
+.linksBlock {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-family: 'Rubik';
+    font-size: 13px;
+    color: #000000;
+    background-color: lightgrey;
+}
+.linksBlock a {
+    color: black;
+    text-decoration: underline;
+    margin: 0px 0px 0px 0px;
+}
+.linksBlock a:hover {
+    color: #000000;
+    font-weight: 900;
+}
+.linksBlock p {
+    margin: 0px 10px 0px 0px;
+}
+.backLink {
+    display: flex;
+    width: 70px;
+    margin: 0px 20px 0px 45px;
+}
+.backLink img {
+    width: 15%;
+}
+.backLink a {
+    margin: 0px 0px 0px 6px;
+    cursor: pointer;
+}
+
+
+
+.photoCard {
+	display: flex;
+    height: 700px;
+}
+
+.card-slider {
+    width: 700px;
+    height: 730px;
+    display: flex;
+    margin: 10px 100px 0px 0px;
+}
+
+.card-info {
+	width: calc(100% - 592px - 60px);
+	padding-right: 62px;
+}
+
+.slider-nav {
+    width: 120px;
+    margin: 20px 10px 0px 0px;
+}
+
+.slider-nav__item {
+    height: 120px;
+    width: 105px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #D9D9D9;
+    border-radius: 0px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.slider-nav__item:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.slider-nav__item img {
+    width: 100%;
+}
+
+.slider-block {
+	overflow: hidden;
+	width: calc(100% - 82px - 20px);
+	background-color: #fff;
+	border: 1px solid #D9D9D9;
+	border-radius: 0px;
+}
+
+.swiper-slide {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+
+
+/* Basic Styling */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+  background-color: #3f3f3f;
+}
+
+/* Columns */
+.left-column {
+  width: 65%;
+  position: relative;
+}
+
+.right-column {
+  width: 35%;
+  margin-top: 60px;
+}
+
+
+/* Left Column */
+.left-column img {
+  width: 70%;
+  position: absolute;
+  left: 0px;
+  top: 20px;
+  opacity: 0;
+  transition: all 0.3s ease;
+  box-shadow: 0px 0px 2px 0px #000;
+}
+
+.left-column img.active {
+  opacity: 1;
+}
+
+/* Right Column */
+
+/* Product Description */
+.product-description {
+  border-bottom: 1px solid #E1E8EE;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+.product-description span {
+  font-size: 12px;
+  color: #358ED7;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.product-description h1 {
+  font-weight: 300;
+  font-size: 36px;
+  letter-spacing: -2px;
+}
+.product-description p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #ffffff;
+  line-height: 24px;
+}
+
+/* Product Configuration */
+.product-color span,
+.size-config span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+/* Product Color */
+.product-color {
+  margin-bottom: 30px;
+}
+
+.color-choose div {
+  display: inline-block;
+}
+
+.color-choose input[type="radio"] {
+  display: none;
+}
+
+.color-choose input[type="radio"] + label span {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: -1px 4px 0 0;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.color-choose input[type="radio"] + label span {
+  border: 2px solid #FFFFFF;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.33);
+}
+
+.color-choose input[type="radio"]#grey + label span {
+  background-color: #6e6e6e
+}
+
+.color-choose input[type="radio"]:checked + label span {
+  background-image: url(img/check-icn.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Cable Configuration */
+.size-choose {
+  margin-bottom: 20px;
+}
+
+.size-choose button {
+  border: 2px solid #E1E8EE;
+  border-radius: 6px;
+  padding: 10px 15px;
+  margin: 0px 0px 10px 0px;
+  font-size: 14px;
+  color: #5E6977;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.size-choose button:hover,
+.size-choose button:active,
+.size-choose button:focus {
+  border: 2px solid #6a6a6a;
+  color: #151515;
+  outline: none;
+  background-color: #a0a0a0;
+  font-size: 16px;
+}
+
+.size-config {
+  border-bottom: 1px solid #E1E8EE;
+  margin-bottom: 20px;
+}
+
+.size-config a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 12px;
+  position: relative;
+  margin: 10px 0;
+  display: inline-block;
+}
+.size-config a:before {
+  content: "?";
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  text-align: center;
+  line-height: 16px;
+  opacity: 1;
+  margin-right: 5px;
+}
+
+/* Product Price */
+.product-price {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #E1E8EE;
+}
+
+.product-price span {
+  font-size: 26px;
+  font-weight: 300;
+  color: #ffffff;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.cart-btn {
+  display: inline-block;
+  background-color: #939393;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 12px 30px;
+  transition: all .5s;
+  margin-bottom: 20px;
+}
+.cart-btn:hover {
+  background-color: #767676;
+}
+
+.styleNotes {
+    margin: 40px 0px 80px 0px;
+    color: #ffffff;
+}
+
+
+.styleNotes h1 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.similarProductsBlock {
+    background-color: #ffffff;
+}
+
+.similarProductsText {
+    background-color: #ffffff;
+    padding: 10px 100px 10px 100px;
+    position: relative;
+    height: 80px;
+}
+
+.firstVerticalStrip {
+    background-color: #3f3f3f;
+    width: 2px;
+    height: 50px;
+    position: absolute;
+    top: 28px;
+}
+.firstHorizontalStrip {
+    background-color: #3f3f3f;
+    height: 2px;
+    width: 400px;
+    position: absolute;
+    top: 28px;
+}
+.secondVerticalStrip {
+    background-color: #3f3f3f;
+    width: 2px;
+    height: 50px;
+    position: absolute;
+    left: 500px;
+    top: 28px;
+}
+.secondHorizontalStrip {
+    background-color: #3f3f3f;
+    height: 2px;
+    width: 62%;
+    position: absolute;
+    left: 500px;
+    top: 77px;
+}
+
+.similarProductsText p {
+    position: absolute;
+    top: 22px;
+    left: 190px;
+    font-size: 22px;
+}
+
+.similarProductsContent {
+    padding: 10px 0px 100px 0px;
+    margin: 0px 100px 0px 103px;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+}
+.productCard {
+    width: 230px;
+    height: 390px;
+    font-family: 'Rubik';
+    font-size: 16px;
+    margin: 0px 40px 20px 0px;
+}
+.productCard p {
+    margin: 15px 0px 0px 10px;
+}
+.productCard a {
+    text-decoration: none;
+    color: black;
+}
+.productCard a:hover {
+    text-decoration: underline;
+    color: black;
+}
+.cardPhoto {
+    width: 230px;
+    height: 265px;
+    box-shadow: 0px 0px 1px 0.6px #cfcfcf;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cardPhoto img {
+    width: 230px;
+    height: 270px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.endBlock {
+    height: 400px;
+    width: 100%;
+    background-color: #3f3f3f;
+}
+.endBlockContent {
+    padding: 50px 50px 0px 50px;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.endBlockContent h1 {
+    font-size: 17px;
+    margin: 0px 0px 30px 0px;
+}
+.endBlockContent p {
+    font-size: 14px;
+}
+.endBlockContent a {
+    color: white;
+    text-decoration: none;
+}
+.endBlockContent a:hover {
+    text-decoration: underline;
+}
+.help {
+    margin: 0px 0px 0px 0px;
+}
+.info {
+    margin: 0px 0px 0px 40px;
+}
+.aboutUs {
+    margin: 0px 0px 0px 40px;
+}
+.getNewsAndOffers {
+    margin: 0px 0px 0px 180px;
+    width: 330px;
+}
+.getNewsAndOffers h1 {
+    width: 330px;
+    margin: 0px 0px 12px 0px;
+}
+
+.registrationForm {
+    height: 55px;
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 10px 0px;
+}
+.registrationForm input {
+    height: 35px;
+    width: 180px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+.registrationForm input:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.registrationForm button {
+    height: 38px;
+    width: 135px;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    margin-left: -4px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    cursor: pointer;
+}
+.registrationForm button:hover {
+    background-color: #262626;
+}
+.instLogo {
+    width: 11%;
+    margin: 0px 10px 0px 0px;
+}
+.facebookLogo {
+    width: 10%;
+    margin: 0px 10px 0px 0px;
+}
+.twitterLogo {
+    width: 11%;
+    margin: 0px 10px 0px 0px;
+}
+.youtubeLogo {
+    width: 9%;
+    margin: 0px 10px 0px 0px;
+}
+.tikTokLogo {
+    width: 11%;
+}

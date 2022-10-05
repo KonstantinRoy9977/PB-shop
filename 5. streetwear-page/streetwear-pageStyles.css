@@ -1,0 +1,789 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: 'Alumni Sans', sans-serif;
+    background-color: #ffffff;
+}
+.logoBlock {
+    height: 100px;
+    background-color: #3f3f3f;
+    font-size: 70px;
+    font-family: 'Road Rage';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+.PBlogo {
+    width: 305px;
+    margin: 0px 0px 0px 50px;
+}
+.PBlogo a {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+.logoIcons {
+    width: 180px;
+    margin: 0px 50px 0px 0px;
+}
+.logoIcons img {
+    transition: transform 0.3s;
+}
+.logoIcons img:hover {
+    -webkit-transform: scale()1.1;
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.iconSearch {
+    width: 27%;
+}
+.iconRegistr {
+    width: 28%;
+    cursor: pointer;
+}
+.iconBag {
+    width: 29%;
+}
+.searchWindowBlock {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    background: rgb(0 0 0 / 75%);
+    transition-property: opacity;
+    transition-duration: 0.3s;
+}
+.searchWindow {
+    width: 100%;
+    height: 40%;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    top: -200px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Rubik', sans-serif;
+    box-shadow: 0px 0px 0px 1px #000;
+    z-index: 100;
+    transition-property: top;
+    transition-duration: 0.1s;
+}
+.windowPBLogo {
+    font-size: 70px;
+    font-family: 'Road Rage';
+    margin: 10px 0px 0px 50px;
+}
+.searchWindow a {
+    text-decoration: none;
+}
+.windowPBLogo p {
+    margin: 0;
+    color: rgb(53, 53, 53);
+}
+.windowPBLogo p:hover {
+    color: #000;
+}
+.searchWindow-input__block {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: start;
+}
+.searchWindow-input__block h3 {
+    margin: 30px 0px 20px 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.searchWindow-input__block p {
+    margin: 0px 0px 15px 15px;
+    font-size: 18px;
+    color: rgb(53, 53, 53);
+    font-weight: 600;
+}
+.searchWindow-input__block p:hover {
+    color: rgb(0, 0, 0);
+}
+.searchWindow-input {
+    font-size: 18px;
+    margin: 20px 0px 0px 0px;
+    width: 550px;
+    height: 45px;
+    border-radius: 27px;
+    border-width: 0;
+    padding: 0px 52px 0px 50px;
+    background-color: #fafafa;
+}
+.searchBtn {
+    border-radius: 20px;
+    background: rgb(255 255 255 / 0%);
+    font-size: 31px;
+    border-width: 0;
+    position: absolute;
+    top: 21px;
+    left: 401px;
+    cursor: pointer;
+}
+.delete-letter__btn {
+    background: rgb(255 255 255 / 0%);
+    color: #8b8b8b;
+    font-size: 20px;
+    border-width: 0;
+    position: absolute;
+    top: 28px;
+    right: 545px;
+    cursor: pointer;
+}
+.searchWindowExitBtn {
+    margin: 20px 50px 0px 0px;
+}
+.searchWindow-input:hover, .searchBtn:hover {
+    background-color: #e9e9e9;
+}
+.delete-letter__btn:hover {
+    color: #000;
+}
+.searchWindowExitBtn__block {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    border-radius: 30px;
+    background-color: #fafafa;
+    border: 0;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.searchWindowExitBtn__block:hover {
+    background-color: #e9e9e9;
+}
+.searchWindowExitBtn__btn {
+    background-color: #fafafa;
+    border: 0;
+    font-size: 21px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #8b8b8b;
+}
+.searchWindowExitBtn__btn:hover {
+    background-color: #e9e9e9;
+    color: #000;
+}
+.shellRegistrWindow {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 0px;
+    width: 99%;
+    height: 99%;
+    z-index: 9;
+    background: rgb(255 255 255 / 0%);
+    transition-property: opacity;
+    transition-duration: 0.15s;
+}
+.registrationWindow {
+    width: 245px;
+    height: 130px;
+    position: absolute;
+    top: 74px;
+    left: 1208px;
+    background-color: white;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    box-shadow: 0px 0px 0px 1px #000;
+    z-index: 100;
+    animation: opacity 0.15s;
+}
+@keyframes opacity {
+    from {
+        opacity: 0;
+    }
+    to (
+        opacity: 1;
+    )
+}
+.popupExit-btn {
+    background-color: #fff;
+    border: 0;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    opacity: 0.5;
+}
+.popupExit-btn:hover {
+    opacity: 1;
+}
+.registrationWindow h1 {
+    font-size: 12px;
+    margin: 20px 0px 25px 0px;
+}
+.registrationWindow a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #151515;
+}
+.registrationWindow a:hover {
+    text-decoration: underline;
+}
+.registrationWindow p {
+    font-size: 12px;
+    margin: 0px 0px 22px 0px;
+}
+.capBlock {
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 18px;
+    font-family: 'Rubik';
+}
+.capBlock a {
+    text-decoration: none;
+    color: #2e2e2e;
+    margin: 0px 50px 0px 0px;
+}
+.capBlock a:hover {
+    color: #000000;
+    font-weight: 900;
+}
+.menu {
+    display: flex;
+}
+.pagePhoto img {
+    width: 100%;
+    display: block;
+}
+.linksBlock {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-family: 'Rubik';
+    font-size: 13px;
+    color: #000000;
+    background-color: lightgrey;
+}
+.linksBlock a {
+    color: black;
+    text-decoration: underline;
+    margin: 0px 0px 0px 20px;
+    cursor: pointer;
+}
+.linksBlock a:hover {
+    color: #000000;
+    font-weight: 900;
+}
+.linksBlock p {
+    margin: 0px 10px 0px 0px;
+}
+.backLink {
+    display: flex;
+    width: 70px;
+    margin: 0px 0px 0px 45px;
+}
+.backLink img {
+    width: 15%;
+}
+.backLink a {
+    margin: 0px 0px 0px 6px;
+}
+.headingBlock {
+    width: 100%;
+    margin: 0px 0px 50px 30px;
+    display: flex;
+    align-items: center;
+    font-family: 'Rubik';
+    font-size: 11px;
+}
+.headingBlock h1 {
+    margin: 25px 20px 20px 0px;
+}
+.headingBlock p {
+    font-weight: 600;
+    margin: 25px 20px 20px 0px;
+}
+.productsBlock__container {
+    margin: 0px 20px 100px 45px;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+.productCard {
+    width: 320px;
+    height: 530px;
+    font-family: 'Rubik';
+    font-size: 16px;
+    margin: 0px 40px 30px 0px;
+}
+.productCard p {
+    margin: 15px 0px 0px 10px;
+}
+.productCard a {
+    text-decoration: none;
+    color: black;
+}
+.productCard a:hover {
+    text-decoration: underline;
+    color: black;
+}
+.cardPhoto {
+    width: 320px;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cardPhoto img {
+    width: 100%;
+    transition: transform 0.5s;
+}
+.cardPhoto img:hover {
+    -webkit-transform: scale()1.1;
+    -ms-transform: scale(1.1);
+    transform: scale(1.05); 
+}
+
+
+.mybutton {
+    height: 30px;
+    width: 30px;
+    position: fixed;
+    font-size: 22px;
+    top: 780px;
+    left: 85%;
+    border: 1px solid #d8d8d8;
+    background-color: #fff;
+    overflow: visible;
+    z-index: 100;
+}
+.mybutton::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -35px 0 0 -35px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    content: "";
+    opacity: 0;
+}
+.mybutton--animate-click-one::after {
+    box-shadow: inset 0 0 0 35px rgba(111, 148, 182, 0);
+}
+.mybutton--animate-click-one.mybutton--click::after {
+    animation: anim-animate-click-one 0.6s ease-out forwards;
+}
+
+@keyframes anim-animate-click-one {
+    0% {
+        opacity: 1;
+        transform: scale3d(0.4, 0.4, 1);
+    }
+    80% {
+        box-shadow: inset 0 0 0 2px rgb(114, 114, 114);
+        background-color: rgb(66, 66, 66);
+        opacity: 0.1;
+    }
+    100% {
+        box-shadow: inset 0 0 0 2px rgb(114, 114, 114);
+        background-color: rgb(66, 66, 66);
+        opacity: 0;
+        transform: scale3d(1.2, 1.2, 1);
+    }
+}
+
+
+
+
+
+.endBlock {
+    height: 400px;
+    width: 100%;
+    background-color: #3f3f3f;
+}
+.endBlockContent {
+    padding: 50px 50px 0px 50px;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.endBlockContent h1 {
+    font-size: 17px;
+    margin: 0px 0px 30px 0px;
+}
+.endBlockContent p {
+    font-size: 14px;
+}
+.endBlockContent a {
+    color: white;
+    text-decoration: none;
+}
+.endBlockContent a:hover {
+    text-decoration: underline;
+}
+.help {
+    margin: 0px 0px 0px 0px;
+}
+.info {
+    margin: 0px 0px 0px 40px;
+}
+.aboutUs {
+    margin: 0px 0px 0px 40px;
+}
+.getNewsAndOffers {
+    margin: 0px 0px 0px 180px;
+    width: 330px;
+}
+.getNewsAndOffers h1 {
+    width: 330px;
+    margin: 0px 0px 12px 0px;
+}
+
+.registrationForm {
+    height: 55px;
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 10px 0px;
+}
+.registrationForm input {
+    height: 35px;
+    width: 180px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+.registrationForm input:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.registrationForm button {
+    height: 38px;
+    width: 135px;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    margin-left: -4px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    cursor: pointer;
+}
+.registrationForm button:hover {
+    background-color: #262626;
+}
+.instLogo {
+    width: 11%;
+    margin: 0px 10px 0px 0px;
+}
+.facebookLogo {
+    width: 10%;
+    margin: 0px 10px 0px 0px;
+}
+.twitterLogo {
+    width: 11%;
+    margin: 0px 10px 0px 0px;
+}
+.youtubeLogo {
+    width: 9%;
+    margin: 0px 10px 0px 0px;
+}
+.tikTokLogo {
+    width: 11%;
+}
+
+
+/* Мобильная версия */
+
+/* Мобильное меню */
+.mobile-whiteStartBlock__link {
+    display: none;
+    text-decoration: none;
+    color: #000;
+}
+
+.mobile-whiteStartBlock {
+    height: 40px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1050px;
+    width: 100%;
+    margin: auto;
+    background-color: #3f3f3f;
+}
+
+.navbar {
+    display: none;
+    width: 100%;
+    box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+
+.navbar .menu-items {
+    display: flex;
+}
+
+.navbar .nav-container li {
+    list-style: none;
+}
+
+.navbar .nav-container a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000;
+    font-family: 'Rubik';
+}
+
+.navbar .nav-container p {
+    color: white;
+}
+
+.navbar .nav-container a:hover {
+    font-weight: bolder;
+}
+
+.nav-container {
+    display: block;
+    position: relative;
+    height: 60px;
+}
+
+.nav-container .checkbox {
+    position: absolute;
+    display: block;
+    height: 32px;
+    width: 32px;
+    top: 12px;
+    left: 1px;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.nav-container .hamburger-lines {
+    display: block;
+    height: 21px;
+    width: 26px;
+    position: absolute;
+    top: 20px;
+    left: 8px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav-container .hamburger-lines .line {
+    display: block;
+    height: 3px;
+    width: 100%;
+    border-radius: 10px;
+    background: #ffffff;
+}
+
+.nav-container .hamburger-lines .line1 {
+    transform-origin: 0% 0%;
+    transition: transform 0.4s ease-in-out;
+}
+
+.nav-container .hamburger-lines .line2 {
+    transition: transform 0.2s ease-in-out;
+}
+
+.nav-container .hamburger-lines .line3 {
+    transform-origin: 0% 100%;
+    transition: transform 0.4s ease-in-out;
+}
+
+.navbar .menu-items {
+    padding-top: 120px;
+    box-shadow: inset 0 0 2000px rgb(255 255 255 / 50%);
+    height: 100vh;
+    width: 70%;
+    transform: translate(-150%);
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    padding-left: 50px;
+    transition: transform 0.5s ease-in-out;
+    background: rgb(255 255 255 / 95%);
+}
+
+.navbar .menu-items li {
+    margin-bottom: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.logos-mobile {
+    top: 5px;
+    font-size: 1.2rem;
+    color: #0e2431;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.PB-logo-mobile {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
+}
+
+.PB-logo-mobile p {
+    font-size: 35px;
+    font-family: 'Road Rage';
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.nav-container input[type="checkbox"]:checked~.menu-items {
+    transform: translateX(0);
+}
+
+.nav-container input[type="checkbox"]:checked~.hamburger-lines .line1 {
+    transform: rotate(45deg);
+}
+
+.nav-container input[type="checkbox"]:checked~.hamburger-lines .line2 {
+    transform: scaleY(0);
+}
+
+.nav-container input[type="checkbox"]:checked~.hamburger-lines .line3 {
+    transform: rotate(-45deg);
+}
+
+.nav-container input[type="checkbox"]:checked~.logo {
+    display: none;
+}
+/* ///// */
+
+.mobile-endBlock {
+    display: none;
+    width: 100%;
+    background-color: #3f3f3f;
+}
+.mobile-endBlockContent {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px 20px 25px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+}
+.mobile-endBlockContent h1 {
+    font-size: 18px;
+}
+.mobile-endBlockContent a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.mobile-endBlockContent p {
+    width: 80%;
+}
+.mobile-help, .mobile-info, .mobile-aboutUs, .mobile-getNewsAndOffers {
+    margin-bottom: 20px;
+}
+.mobile-registrationForm {
+    height: 55px;
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 25px 0px;
+}
+.mobile-registrationForm input {
+    height: 40px;
+    width: 160px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.mobile-registrationForm button {
+    height: 44px;
+    width: 125px;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    margin-left: -10px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.mobile-allLogos {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.mobile-instLogo {
+    width: 15%;
+    margin: 0px 10px 0px 0px;
+}
+.mobile-facebookLogo {
+    width: 13%;
+    margin: 0px 10px 0px 0px;
+}
+.mobile-twitterLogo {
+    width: 15%;
+    margin: 0px 10px 0px 0px;
+}
+.mobile-youtubeLogo {
+    width: 11%;
+    margin: 0px 10px 0px 0px;
+}
+.mobile-tikTokLogo {
+    width: 15%;
+    margin: 0px 10px 0px 0px;
+}
+.mobile-whiteEndBlock {
+    display: none;
+    height: 60px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+.mobile-whiteEndBlock p {
+    margin: 20px 0px 10px 0px;
+    font-size: 12px;
+}
+.mobile-whiteEndBlock a {
+    color: #000;
+    text-decoration: underline;
+    margin: 0px 15px 10px 15px;
+    font-size: 11px;
+}

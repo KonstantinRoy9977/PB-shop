@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Road+Rage&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@800&family=Road+Rage&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@800&family=Road+Rage&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="accessories-pageStyles.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <div class="logoBlock">
+        <div class="PBlogo">
+        <a href="../index.html"><p>Peaky Blinders</p></a>
+        </div>
+        <div class="logoIcons">
+        <a href="#"><img src="../img/icon-search-box-png-clipart.png" class="iconSearch" title="Поиск"></a>
+        <a href="../enter-page/index.html"><img src="../img/img_391533.png" class="iconRegistr" title="Вход и регистрация"></a>
+        <a href="index.html"><img src="../img/203987-200.png" class="iconBag" title="Просмотреть корзину"></a>
+        </div>
+    </div>
+    
+    <div class="capBlock">
+        <div class="menu">
+            <a href="../coats-page.html"><p>ПАЛЬТО</p></a>
+            <a href="../suits-page.html"><p>КОСТЮМЫ</p></a>
+            <a href="../accessories-page.html"><p>АКСЕССУАРЫ</p></a>
+            <a href="../shoes-page.html"><p>ОБУВЬ</p></a>
+            <a href="../streetwear-page.html"><p>STREETWEAR</p></a>
+            <a href="../souvenirs-page.html"><p>СУВЕНИРЫ</p></a>
+        </div>
+    </div>
+
+    <div class="headingBlock">
+        <h1>Корзина</h1>
+    </div>
+    
+    <div class="content">
+    
+        <div class="cartIsEmpty">
+            <p>Корзина пуста</p>
+            <a href="../index.html"><button>◄ ПРОДОЛЖИТЬ ПОКУПКИ</button></a>
+        </div>
+    
+        <div class="productBlock">
+            <div class="productAllContent">
+                <div class="capProduct">
+                    <label>
+                        <input class="select_all" type="checkbox" name="terms">
+                        Выбрать все
+                    </label>
+                </div>
+                <div class="allOrdersInfo">
+                    <div class="productInfo">
+                        <div class="productSelect"><input class="select_all" type="checkbox" name="productSelect"></div>
+                        <div class="productImg"><img src="../img/cap_photo.jpg"></div>
+                        <div class="productSpecifications">
+                            <a href="#">
+                                <h1>Peaky Blinders Hat Gatsby Mens</h1>
+                            </a>
+                            <p>Код продукта: MIK51419</p>
+                            <p>цвет Серый, размер 58 см</p>
+                            <h2 class="product-price"></h2>
+                        </div>
+                        <div class="productQuantityBlock">
+                            <h1>Количество:</h1>
+                            <select name="productQuantity" id="productQuantity">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+                        <div class="allPrice">
+                            <button class="delete-product__btn" title="Удалить товар">✖</button>
+                            <h3 class="allQntPrice"></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="makingAnOrder_Block">
+            <div class="mainBtn_block">
+                <button>Перейти к оформлению</button>
+                <p>Доступные способы и время доставки можно выбрать при оформлении заказа</p>
+            </div>
+            <div class="first_column">
+                <div class="text1">
+                    <h1>Ваша корзина</h1>
+                    <p>3 товара • 440 гр</p>
+                </div>
+                <div class="text1">
+                    <h3>Товары (3)</h1>
+                        <p class="black_text">14 990 Р</p>
+                </div>
+                <div class="text1">
+                    <h3>Скидка<br><a href="#">Подробнее</a></h1>
+                        <p class="red_text">- 1000 Р</p>
+                </div>
+            </div>
+            <div class="second_column">
+                <div class="text1">
+                    <h1>Общая стоимость</h1>
+                    <p class="final-price">14 990 Р</p>
+                </div>
+                <div class="text1">
+                    <h3>При оплате картой</h1>
+                        <p class="green_text">14 630 Р</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <div class="endBlock">
+        <div class="endBlockContent">
+            <div class="help">
+                <h1>ЧЕМ МЫ МОЖЕМ ПОМОЧЬ?</h1>
+                <a href="#"><p>Обслуживание клиентов</p></a>
+                <a href="#"><p>Отследить мой заказ</p></a>
+                <a href="#"><p>Возврат товара</p></a>
+                <a href="#"><p>Размерный ряд</p></a>
+            </div>
+            
+            <div class="info">
+                <h1>ИНФОРМАЦИЯ</h1>
+                <a href="#"><p>Информация о доставке</p></a>
+                <a href="#"><p>Получай новости и эксклюзивные предложения</p></a>
+                <a href="#"><p>Условия и положения</p></a>
+                <a href="#"><p>Политика конфиденциальности - обновлено в сентябре 2019</p></a>
+                <a href="#"><p>О файлах cookie</p></a>
+                <a href="#"><p>Отправляй свою музыку</p></a>
+            </div>
+            
+            <div class="aboutUs">
+                <h1>О НАС</h1>
+                <a href="#"><p>Об интернет магазине Peaky Blinders</p></a>
+                <a href="#"><p>Связи с инвесторами</p></a>
+                <a href="#"><p>Социальная ответственность PB</p></a>
+                <a href="#"><p>Вакансии</p></a>
+                <a href="#"><p>Карта сайта</p></a>
+            </div>
+            
+            <div class="getNewsAndOffers">
+                <h1>ПОЛУЧАЙ НОВОСТИ И ЭКСКЛЮЗИВНЫЕ ПРЕДЛОЖЕНИЯ</h1>
+                <div class="registrationForm">
+                <form action="#" method="get" enctype="multipart/form-data">
+                <input placeholder="Введите ваш e-mail" type="text" name="useremail" value=""/>
+                <button type="submit">Зарегестрироваться</button>
+                </form>
+                </div>
+                <div class="allLogos">
+                    <a href="#"><img src="../img/black-instagram-logo-png-2.png" class="instLogo" title="Инстаграм"></a>
+                    <a href="#"><img src="../img/5fd8aea8da3eb.png" class="facebookLogo" title="Фэйсбук"></a>
+                    <a href="#"><img src="../img/twitter-png-twitter-icon-1600.png" class="twitterLogo" title="Твиттер"></a>
+                    <a href="#"><img src="../img/77809-logo-youtube-transparent-free-photo-png.png" class="youtubeLogo" title="Ютуб"></a>
+                    <a href="#"><img src="../img/Tik-Tok-Logo-Wallpaper-15-2048x1365.png" class="tikTokLogo" title="Тик-Ток"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="bagPage.js"></script>
+    
+    <script src="../wow.min.js"></script>
+              <script>
+              new WOW().init();
+     </script>
+    
+</body>
+</html>

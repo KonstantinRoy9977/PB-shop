@@ -1,0 +1,347 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: 'Alumni Sans', sans-serif;
+    background-color: #ffffff;
+}
+
+.logoBlock {
+    height: 100px;
+    background-color: #3f3f3f;
+    font-size: 70px;
+    font-family: 'Road Rage';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+.PBlogo {
+    width: 305px;
+    margin: 0px 0px 0px 50px;
+}
+.PBlogo a {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+.logoIcons {
+    width: 180px;
+    margin: 0px 50px 0px 0px;
+}
+.logoIcons img {
+    transition: transform 0.3s;
+}
+.logoIcons img:hover {
+    -webkit-transform: scale()1.1;
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.iconSearch {
+    width: 27%;
+}
+.iconRegistr {
+    width: 28%;
+}
+.iconBag {
+    width: 29%;
+}
+.capBlock {
+    background-color: lightgrey;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 18px;
+    font-family: 'Rubik';
+}
+.capBlock a {
+    text-decoration: none;
+    color: #2e2e2e;
+    margin: 0px 50px 0px 0px;
+}
+.capBlock a:hover {
+    color: #000000;
+    font-weight: 900;
+}
+.menu {
+    display: flex;
+}
+.headingBlock h1 {
+    font-family: 'Rubik', sans-serif;
+    margin: 20px 0px 0px 100px;
+    font-size: 25px;
+}
+.content {
+    display: flex;
+    justify-content: flex-start;
+    height: 410px;
+    padding: 0px 100px 0px 100px;
+}
+.content p {
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    color: #2e2e2e;
+}
+.leftColumn {
+    width: 50%;
+    height: 380px;
+    margin: 20px 0px 0px 0px;
+}
+.enterHeading {
+    width: 90%;
+    height: 40px;
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 20px;
+}
+.formBlock {
+    width: 80%;
+    padding: 0px 30px 0px 30px;
+    margin: 30px 0px 0px 0px;
+}
+.formBlock p {
+    margin: 5px 0px 7px 0px;
+}
+input[type="text"] {
+    width: 98%;
+    height: 35px;
+    margin: 0px 0px 20px 0px;
+}
+input[type="password"] {
+    width: 98%;
+    height: 35px;
+}
+.resetPasswordLink {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin: 20px 0px 0px 0px;
+}
+.resetPasswordLink a {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    color: #2e2e2e;
+    font-size: 12px;
+}
+.resetPasswordLink a:hover {
+    color: #000000;
+}
+.formButtons {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.formButtons p {
+    margin: 0px 0px 0px 5px;
+    font-size: 12px;
+}
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+.rememberMeCheckbox {
+    display: flex;
+    align-items: center;
+}
+.enterHeading {
+    width: 90%;
+    height: 40px;
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 20px;
+}
+.formButtons button {
+    height: 40px;
+    width: 250px;
+    padding: 0;
+    background-color: #000000;
+    color: #ffffff;
+    margin-left: 0px;
+    border: none;
+    box-shadow: 0px 0px 0px 1px #000;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+}
+.formButtons button:hover {
+    background-color: #191919;
+    font-weight: 500;
+}
+.rightColumn {
+    width: 50%;
+    height: 380px;
+    margin: 20px 0px 0px 0px;
+}
+.rightColumnText {
+    width: 80%;
+    margin: 30px 0px 0px 30px;
+}
+.rightColumnButton {
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.rightColumnButton button {
+    height: 40px;
+    width: 250px;
+    padding: 0;
+    background-color: #000000;
+    color: #ffffff;
+    margin-left: 0px;
+    border: none;
+    box-shadow: 0px 0px 0px 1px #000;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+}
+.rightColumnButton button:hover {
+    background-color: #191919;
+    font-weight: 500;
+}
+.facebookButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.facebookButton button {
+    height: 40px;
+    width: 180px;
+    padding: 0;
+    background-color: #3b5998;
+    color: #ffffff;
+    margin: 0px 0px 0px 20px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.facebookButton button:hover {
+    background-color: #5d75a7;
+    font-weight: 500;
+}
+.agreementText {
+    display: flex;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    margin: 0px 0px 70px 0px;
+}
+.agreementText a {
+    color: #000;
+}
+.agreementText a:hover {
+    font-weight: 600;
+}
+
+
+
+
+
+.endBlock {
+    height: 400px;
+    width: 100%;
+    background-color: #3f3f3f;
+}
+.endBlockContent {
+    padding: 50px 50px 0px 50px;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.endBlockContent h1 {
+    font-size: 17px;
+    margin: 0px 0px 30px 0px;
+}
+.endBlockContent p {
+    font-size: 14px;
+}
+.endBlockContent a {
+    color: white;
+    text-decoration: none;
+}
+.endBlockContent a:hover {
+    text-decoration: underline;
+}
+.help {
+    margin: 0px 0px 0px 0px;
+}
+.info {
+    margin: 0px 0px 0px 40px;
+}
+.aboutUs {
+    margin: 0px 0px 0px 40px;
+}
+.getNewsAndOffers {
+    margin: 0px 0px 0px 180px;
+    width: 330px;
+}
+.getNewsAndOffers h1 {
+    width: 330px;
+    margin: 0px 0px 12px 0px;
+}
+
+.registrationForm {
+    height: 55px;
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 10px 0px;
+}
+.registrationForm input {
+    height: 35px;
+    width: 180px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+.registrationForm input:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.registrationForm button {
+    height: 38px;
+    width: 135px;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    margin-left: -4px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    cursor: pointer;
+}
+.registrationForm button:hover {
+    background-color: #262626;
+}
+.instLogo {
+    width: 11%;
+    margin: 0px 10px 0px 0px;
+}
+.facebookLogo {
+    width: 10%;
+    margin: 0px 10px 0px 0px;
+}
+.twitterLogo {
+    width: 11%;
+    margin: 0px 10px 0px 0px;
+}
+.youtubeLogo {
+    width: 9%;
+    margin: 0px 10px 0px 0px;
+}
+.tikTokLogo {
+    width: 11%;
+}
